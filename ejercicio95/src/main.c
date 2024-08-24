@@ -13,7 +13,6 @@ int main()
     {
         for (int y = 0; y < x; y++)
         {
-            printf("%d", x);
             if (fprintf(fichero, "%d", x) < 0)
             {
                 perror("Error durante la escritura");
